@@ -57,7 +57,7 @@ export default class RichTextEditor extends Component {
         <div>
             <Editor
                 editorState={this.state.editorState}
-                wrapperClassName="demo-wrapper"
+                containerClassName="demo-container"
                 editorClassname="demo-editor"
                 onEditorStateChange={this.onEditorStateChange}
                 toolbar={{
